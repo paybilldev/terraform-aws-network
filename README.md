@@ -14,11 +14,17 @@ This Terraform setup provisions a complete AWS network foundation. It can **crea
 ### **Main Capabilities**
 
 ✔ **Detect or create a VPC** (depending on input)
+
 ✔ Automatically create **public & private subnets** across availability zones
+
 ✔ Support for **VPN (client VPN + site-to-site VPN)**
+
 ✔ Optionally set up **AWS VPC Endpoints** (S3, DynamoDB, EC2, KMS, CloudWatch, ELB, SNS, SQS, RDS, ECS etc.) for private network access without using the internet
+
 ✔ Optional **Direct Connect** provisioning for hybrid networks
+
 ✔ Flexible, overridable naming convention for all resources
+
 ✔ Exposes **outputs** like subnet IDs, VPC ID, VPN info, route table IDs etc., for easy integration with compute modules (EKS, ECS, RDS, EC2, etc.)
 
 
